@@ -8,12 +8,14 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "node server/index.js"
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "http-proxy-middleware": "^2.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"

@@ -1,0 +1,224 @@
+#outer {
+  min-width: 100%;
+  display: block;
+}
+
+#reviews {
+  /* background-color: yellow; */
+}
+
+#addToCart {
+  /* background-color: pink; */
+  width: 40%;
+}
+
+#images {
+  /* background-color: cornflowerblue; */
+  width: 60%;
+}
+
+.img-cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .img-cart {
+    display: block;
+  }
+  #addToCart, #images {
+    width: 100%
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .nav-header-inner {
+    padding: 12px 36px 12px 36px;
+  }
+}
+
+.nav-header {
+  position: relative;
+  line-height: 1.4;
+
+}
+
+.nav-header-inner {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  height: 72px;
+  box-sizing: border-box;
+}
+
+.logo-div {
+  padding-right: 6px;
+  width: 86px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.logo-span {
+
+}
+
+.logo-graphic {
+  display: block;
+  overflow: hidden;
+  fill: #F1641E !important;
+}
+
+/* .search {
+  flex: 1 1 0% !important;
+  padding-right: 18px !important;
+  display: flex;
+} */
+
+.search-container {
+  display: block;
+  width: 100%;
+}
+
+.search-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  padding-right: 18px !important;
+}
+
+.search-input {
+  padding-left: 18px;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 96px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0 !important;
+  box-shadow: none;
+  background: transparent;
+  flex: 1;
+  padding-right: 42px !important;
+  width: 100%;
+  min-width: 0;
+  display: block;
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue";
+  letter-spacing: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 16px;
+  line-height: 28px;
+  height: 48px;
+  outline: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-color: rgba(34, 34, 34, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  background: rgba(34, 34, 34, 0.07);
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  position: relative;
+  padding-right: 21px;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 48px;
+  color: #222222;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  z-index: 10;
+  transition: all 200ms ease-out;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 96px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-left: 0 !important;
+  background-color: rgba(34, 34, 34, 0.07);
+
+}
+
+.submit-span {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+  bottom: 1px !important;
+  position: relative;
+}
+
+.primary-nav-container {
+  flex-shrink: 0 !important;
+  padding-left: 16px;
+}
+
+.main-navigation {
+  display: block;
+  box-sizing: border-box;
+}
+
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in {
+  font-size: 13px;
+  line-height: 1.4;
+  min-height: 36px;
+  min-width: 36px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: 500;
+}
+
+.cart-span {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-button {
+  line-height: 1;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.icon-span {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.icon-graphic {
+  fill: black !important;
+}
